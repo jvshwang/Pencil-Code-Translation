@@ -134,15 +134,15 @@
 一个函数是一个可以随时调用的对象（在需要时）：
 <table>
 	<tr>
-		<td>Myfunc=->write“ouch！” </td> 
+		<td>myfunc=->write“ouch！” </td> 
 		
 	</tr>
     <tr>
-	<td>Butter=“click me”，myfunc</td>
+	<td>butter “click me”，myfunc</td>
     </tr>
   
 </table>
-函数MyFunc不立即运行，但只有当按下按钮
+函数myfunc不立即运行，但只有当按下按钮
 
 
 这里myfunc是函数->写“ouch！”这就不需要任何参数，并且每次调用时都要写一个消息。注意，像往常一样，函数不跑的时候，它规定：“ouch！”是写在屏幕上的程序。但当我们点击按钮，调用函数时，我们看到，“ouch！”，是第一次运行时。 
